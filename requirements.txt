@@ -1,1 +1,6 @@
-
+argparse
+socket
+threading
+http.server
+socketserver
+os
