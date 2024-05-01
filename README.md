@@ -1,6 +1,6 @@
 # Virtual Private Network (VPN) Implementation Project
 ## Project Overview
-The Virtual Private Network (VPN) Implementation Project focuses on designing and deploying a secure VPN solution to facilitate remote access to an organization's network resources. The VPN ensures confidentiality, integrity, and authenticity of data transmitted over the internet, enabling authorized users to connect securely from remote locations.
+The **Virtual Private Network (VPN)** Implementation Project focuses on designing and deploying a secure VPN solution to facilitate remote access to an organization's network resources. The VPN ensures confidentiality, integrity, and authenticity of data transmitted over the internet, enabling authorized users to connect securely from remote locations.
 
 ## Project Objectives
 `Design VPN Architecture`: Develop a scalable VPN architecture that meets the organization's security and accessibility requirements.  
@@ -19,12 +19,12 @@ The Virtual Private Network (VPN) Implementation Project focuses on designing an
 `User Training Materials`: Training materials educating network administrators and end-users on connecting to and using the VPN securely.  
 
 ## Skills Developed
-Network architecture design  
+**Network architecture design  
 VPN technology selection and implementation  
 User authentication mechanisms  
 Network security principles  
 Troubleshooting and debugging  
-Documentation and training delivery  
+Documentation and training delivery ** 
 
 ## Project Challenges
 Compatibility and interoperability with different operating systems and devices  
