@@ -4,9 +4,8 @@ body {
   color: #fff;
   margin: 0;
   padding: 0;
-  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fgradient%2F&psig=AOvVaw3Jg0b787mdRrf3yUcp44c8&ust=1714641487520000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCy07-P7IUDFQAAAAAdAAAAABAR');
-  background-size: cover;
-  background-position: center;
+  background: linear-gradient(to bottom, #333333, #666666);
+  overflow: hidden; /* Restrict scrolling */
 }
 
 .container {
@@ -30,5 +29,33 @@ p {
 }
 
 .vpn-icon {
-  font-size: 100px !important;
+  font-size: 250px !important;
+  position: relative;
+}
+
+.vpn-icon::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border: 2px solid #00ff00;
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.8);
+    opacity: 0.7;
+  }
 }
