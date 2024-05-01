@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(to bottom, #000000, #121212);
-  overflow: hidden; /* Restrict scrolling */
+  overflow: hidden;
 }
 
 .container {
@@ -61,26 +61,26 @@ p {
 }
 
 .disconnect-button {
-  background-color: #8B0000; /* Dark red color */
+  background-color: #8B0000;
   color: #fff;
   border: none;
-  border-radius: 20px; /* Rounded shape */
+  border-radius: 20px;
   padding: 10px 20px;
   cursor: pointer;
-  transition: background-color 0.3s; /* Smooth transition */
-  display: flex; /* Use flexbox for alignment */
-  align-items: center; /* Center items vertically */
-  margin-top: 20px; /* Add margin to separate from paragraph */
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
 }
 
 .disconnect-button span {
-  margin-right: 10px; /* Add some space between text and icon */
+  margin-right: 10px;
 }
 
 .disconnect-button:hover {
-  background-color: #FF0000; /* Light red color on hover */
+  background-color: #FF0000;
 }
 
 .disconnect-button .material-icons {
-  margin-left: 5px; /* Margin left for icon spacing */
+  margin-left: 5px;
 }

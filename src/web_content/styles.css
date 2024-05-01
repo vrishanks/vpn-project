@@ -79,27 +79,27 @@ button span {
 }
 
 .login-button.disabled {
-  background-color: #999; /* Change button color when disabled */
-  cursor: not-allowed; /* Change cursor style */
-  pointer-events: none; /* Disable pointer events */
+  background-color: #999;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .login-button.disabled span {
-  opacity: 0.5; /* Reduce opacity of text when button is disabled */
+  opacity: 0.5;
 }
 
 .login-button.disabled .material-icons {
-  opacity: 0.5; /* Reduce opacity of icon when button is disabled */
+  opacity: 0.5;
 }
 
 /* Existing CSS styles */
 
 .lock-icon {
-  font-size: 100px; /* Adjust the font size */
-  color: #ff0000; /* Color of the lock icon */
+  font-size: 100px;
+  color: #ff0000;
 }
 
 button:disabled {
-  opacity: 0.5; /* Reduce opacity when button is disabled */
-  cursor: not-allowed; /* Change cursor style */
+  opacity: 0.5;
+  cursor: not-allowed;
 }
