@@ -12,6 +12,16 @@
         <i class="material-icons vpn-icon">public</i>
         <h1>Connected to VPN successfully</h1>
         <p>Your connection to the VPN is secure.</p>
+        <button class="disconnect-button" onclick="disconnectVPN()">
+            <span>DISCONNECT</span>
+            <i class="material-icons">logout</i>
+        </button>
     </div>
+
+    <script>
+        function disconnectVPN() {
+            window.location.href = "index.html";
+        }
+    </script>
 </body>
 </html>

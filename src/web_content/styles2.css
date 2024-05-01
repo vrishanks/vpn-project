@@ -4,7 +4,7 @@ body {
   color: #fff;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, #333333, #666666);
+  background: linear-gradient(to bottom, #000000, #121212);
   overflow: hidden; /* Restrict scrolling */
 }
 
@@ -58,4 +58,29 @@ p {
     transform: scale(0.8);
     opacity: 0.7;
   }
+}
+
+.disconnect-button {
+  background-color: #8B0000; /* Dark red color */
+  color: #fff;
+  border: none;
+  border-radius: 20px; /* Rounded shape */
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition */
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  margin-top: 20px; /* Add margin to separate from paragraph */
+}
+
+.disconnect-button span {
+  margin-right: 10px; /* Add some space between text and icon */
+}
+
+.disconnect-button:hover {
+  background-color: #FF0000; /* Light red color on hover */
+}
+
+.disconnect-button .material-icons {
+  margin-left: 5px; /* Margin left for icon spacing */
 }
